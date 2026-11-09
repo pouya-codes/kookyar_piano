@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.App</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:windowBackground">@color/surfaceColor</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonStyle">@style/Widget.App.Button.Legacy</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="Widget.App.Button.Legacy" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    <style name="Widget.App.OctaveChip" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">52dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/onSurface</item>
+        <item name="backgroundTint">@color/stringDefault</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="DisableSoundEffects" parent="AppTheme">
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+
+    <style name="customeToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="PreferenceThemeOverlay.App" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:textColorPrimary">@color/kookyar_on_surface</item>
+        <item name="android:textColorSecondary">@color/kookyar_on_surface_variant</item>
+    </style>
+</resources>

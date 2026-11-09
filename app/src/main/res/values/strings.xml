@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KookYar Piano</string>
+    <string name="tanzimat">Settings</string>
+    <string name="rahnama">Help</string>
+    <string name="setting">Settings</string>
+    <string name="tuning">Auto key detection</string>
+    <string name="play_key">Play the key</string>
+    <string name="key_select">Choose the key to tune</string>
+    <string name="auto_detect_hint">Play one key at a time; the tuner follows the key it hears.</string>
+    <string name="TunerHelp">Tap a key on the keyboard (or use the octave buttons to jump to a register) and KookYar plays the reference tone for it. Then play the same key on your piano: if the needle is left of centre the string is flat and must be tightened; if it is right of centre it is sharp and must be loosened. The gauge turns green when the string is within 20 cents of the target.\n\nWith auto key detection on, the tuner follows whatever key you play. Tune one string of a unison at a time and mute the others.\n\nThe reference pitch (A4 = 440 Hz by default) and the microphone sensitivity can be changed in Settings.</string>
+    <string-array name="sensitive">
+        <item>Low (noisy environments)</item>
+        <item>Medium (moderately quiet)</item>
+        <item>High (quiet environments)</item>
+    </string-array>
+    <string-array name="sensitivValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="refArray">
+        <item>410</item><item>411</item><item>412</item><item>413</item><item>414</item>
+        <item>415</item><item>416</item><item>417</item><item>418</item><item>419</item>
+        <item>420</item><item>421</item><item>422</item><item>423</item><item>424</item>
+        <item>425</item><item>426</item><item>427</item><item>428</item><item>429</item>
+        <item>430</item><item>431</item><item>432</item><item>433</item><item>434</item>
+        <item>435</item><item>436</item><item>437</item><item>438</item><item>439</item>
+        <item>440</item><item>441</item><item>442</item><item>443</item><item>444</item>
+        <item>445</item><item>446</item><item>447</item><item>448</item><item>449</item>
+        <item>450</item>
+    </string-array>
+</resources>

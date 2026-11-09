@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.kookyar.common.LanguagePreference android:key="kookyar_language" />
+    <ListPreference
+        android:title="@string/kookyar_pref_sensitivity_title"
+        android:defaultValue="2"
+        android:key="sensitive"
+        android:summary="@string/kookyar_pref_sensitivity_summary"
+        android:entries="@array/sensitive"
+        android:entryValues="@array/sensitivValues" />
+
+    <ListPreference
+        android:title="@string/kookyar_pref_reference_title"
+        android:defaultValue="440"
+        android:key="ref"
+        android:summary="@string/kookyar_pref_reference_summary"
+        android:entries="@array/refArray"
+        android:entryValues="@array/refArray" />
+</PreferenceScreen>

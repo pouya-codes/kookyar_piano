@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#FF4A5FD9</color>
+    <color name="primaryColorDark">#FF303F9F</color>
+    <color name="accentColor">#FFFFBB33</color>
+    <color name="windowBackground">#FF1E1E1E</color>
+    <color name="dropdownBackground">#FF2A2933</color>
+    <color name="surfaceColor">#FF121016</color>
+    <color name="cardColor">#FF1E1C26</color>
+    <color name="cardStroke">#FF35323F</color>
+    <color name="onSurface">#FFECEAF4</color>
+    <color name="onSurfaceVariant">#FFC7C3D2</color>
+    <color name="stringDefault">#FF2C2A38</color>
+    <color name="stringSelected">#FFFFBB33</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
