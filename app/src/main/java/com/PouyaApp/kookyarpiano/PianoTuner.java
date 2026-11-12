@@ -326,9 +326,9 @@ public class PianoTuner extends AppCompatActivity {
     /** Persian/English note name with octave, e.g. "دو اکتاو چهارم". */
     private String keyLabel(int midi) {
         int pc = midi % 12;
-        int octaveIndex = midi / 12 - 2;
+        int octaveIndex = midi / 12 - 1; // scientific octave; names start at octave 0
         String octave = octaveIndex >= 0 && octaveIndex < octaveNames.length
-                ? octaveNames[octaveIndex] : String.valueOf(octaveIndex + 1);
+                ? octaveNames[octaveIndex] : String.valueOf(octaveIndex);
         return noteNames[pc] + " " + octaveWord + " " + octave;
     }
 
